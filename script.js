@@ -16,3 +16,11 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
   });
 
+  
+  const menuHamburguesa = document.getElementById('menu-hamburguesa');
+  const navegacion = document.querySelector('ul.navegacion');
+  
+  menuHamburguesa.addEventListener('click', () => {
+    navegacion.classList.toggle('mostrar');
+  });
+  
