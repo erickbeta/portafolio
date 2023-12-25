@@ -19,6 +19,7 @@
 </head>
 
 <body>
+
   <!-- Barra de Navegación -->
   <nav>
    <a href="index.html"><h1>Erick Betancourt Garcia</h1></a> 
@@ -35,7 +36,7 @@
 
   <!-- Sección Hero  -->
   <section class="hero" id="about">
-    <img src="/assets/wfh_1.png" alt="banner" loading="lazy" class="hero-img" />
+    <img id="imgn" src="/assets/wfh_1.png" alt="banner" loading="lazy" class="hero-img" />
 
     <div class="bio">
       <h2 class="bio-titulo" id="aboutit">Sobre Mí</h2>
@@ -48,27 +49,72 @@
     <pid id="trans2">Creatividad y funcionalidad.</p>
     </div>
   </section>
-  <!-- Sobre Mí -->
 
-  <section class="mas-sobre">
+
+  <!-- Sobre Mí -->
+  <section class="mas-sobre" id="sobremi">
     <h2>Más sobre mí</h2>
     <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
-      nesciunt excepturi quos obcaecati incidunt voluptatem ipsam sunt ipsum,
-      autem deleniti cupiditate molestias quis unde quae totam porro dicta
-      iure animi inventore, veniam hic! Omnis nulla, delectus a voluptatibus
+      Actualmente, me dedico a proyectos free lance en desarrollo y diseño web, sitios sencillos
+      pero concretos, llenando las necesidades básicas y algo exigentes en el desarrollo de nuevos
+      sitios web.
     </p>
     <p>
-      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur
-      nostrum dolor minus, libero delectus praesentium perferendis
+      Manejo tecnologias como HTML, CSS, JS, React, Python, google colab, Jquery entre otros.
     </p>
     <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero,
-      consequuntur labore? Ea totam voluptas amet!
+      Estudiante activo de frameworks como Angular, Vue, Nextjs entre otros.
     </p>
   </section>
   <!-- Sección Habilidades -->
+  <section class="habilidades" id="habilidades">
+    <h2 class="header-habilidadr">Mis mejores habilidades</h2>
 
+    <div class="contenedor-habilidades">
+      <div class="first-set animate__animated animate__pulse">
+        <img
+          src="/assets/icons8-html-5-48.png"
+          alt="html5"
+          loading="lazy"
+          class="icon icon-card"
+
+        />
+        <img
+          src="/assets/icons8-css3-48.png"
+          alt=""
+          loading="lazy"
+          class="icon icon-card"
+        />
+        <img
+          src="assets/icons/icons8-javascript.svg"
+          alt=""
+          loading="lazy"
+          class="icon icon-card"
+        />
+      </div>
+
+      <div class="second-set animate__animated animate__pulse">
+        <img
+          src="assets/icons/icons8-bootstrap.svg"
+          alt=""
+          loading="lazy"
+          class="icon icon-card"
+        />
+        <img
+          src="assets/icons/icons8-react-native.svg"
+          alt=""
+          loading="lazy"
+          class="icon icon-card"
+        />
+        <img
+          src="assets/icons/icons8-git.svg"
+          alt=""
+          loading="lazy"
+          class="icon icon-card"
+        />
+      </div>
+    </div>
+  </section>
   <!-- Sección Proyectos -->
 
   <!-- Sección Contacto-->
@@ -85,6 +131,8 @@
   <!-- Ion icons scripts -->
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <!-- Scrips de pagina -->
+  <script src="script.js"></script>
 </body>
 
 </html>

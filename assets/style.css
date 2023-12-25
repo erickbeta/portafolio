@@ -139,13 +139,17 @@ nav {
 
 
 #aboutit{
-  animation: moveDown 1s ease-in-out;
+  animation: moveDown 2s ease-in-out;
 }
 
+#imgn{
+  animation: moveDown 1s ease-in-out;
+}
 
 .mas-sobre {
   background-color: var(--bg-color);
   padding: 1rem 6rem;
+  
 }
 
 .mas-sobre h2 {
@@ -156,4 +160,24 @@ nav {
 .mas-sobre p {
   line-height: var(--line-height);
   padding: 0.4rem;
+}
+
+.habilidades {
+  max-width: 68.75rem;
+  margin: auto;
+  text-align: center;
+  margin-top: 2.5rem;
+}
+
+.encabezado-habilidad {
+  margin-bottom: 1rem;
+}
+
+.contenedor-habilidad img {
+  padding: 1.25rem;
+}
+
+.icono {
+  width: 11.875rem;
+  height: 11.25rem;
 }
